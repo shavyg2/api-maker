@@ -1,0 +1,22 @@
+{
+  "name": "api-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.1.0",
+    "@types/node": "^10.3.3",
+    "is-subset": "^0.1.1",
+    "jest": "^23.1.0"
+  },
+  "dependencies": {
+    "@types/memoizee": "^0.4.2",
+    "memoizee": "^0.4.12"
+  }
+}
