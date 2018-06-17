@@ -21,7 +21,7 @@ export class Api{
         return new ApiChain<T,K>(level,callback);
     }
     
-    static Singleton<K>(func:()=>K){
+    static Singleton<K>(func:(...any:any[])=>K){
         let single = memoizee(func) as typeof func;
         return new Api().define(single);
     }
