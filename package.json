@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "tsc",
     "test": "jest"
   },
   "keywords": [],
@@ -13,7 +14,8 @@
     "@types/jest": "^23.1.0",
     "@types/node": "^10.3.3",
     "is-subset": "^0.1.1",
-    "jest": "^23.1.0"
+    "jest": "^23.1.0",
+    "typescript": "^2.9.2"
   },
   "dependencies": {
     "@types/memoizee": "^0.4.2",
