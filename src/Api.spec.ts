@@ -366,3 +366,23 @@ describe("Api Test",()=>{
 
     })
 })
+
+
+
+let dateFormat = new Api().define(string=>{
+
+
+
+
+    return {
+
+    }
+
+})
+
+
+
+class person{
+
+    
+}
